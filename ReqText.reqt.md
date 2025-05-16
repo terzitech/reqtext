@@ -59,7 +59,7 @@ Only use node.js for testing. No external libraries. This makes it easier to run
 
 As of flathier version 0.1.0-demo.9 and later, the fields `test_exists` and `test_passed` are automatically included in all new and template items by the flathier library. There is no need for ReqText to add or manage these fields manually in its own logic.
 
-## Init Change Request
+## Init Flow
 ```mermaid
 flowchart TD
     A[User runs: npx reqt init <project name>] --> B{Arguments Provided?}
